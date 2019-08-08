@@ -184,14 +184,15 @@ public class MainPageFragment extends Fragment {
         } else {
             tv_newtime.setText(String.format(" 上午%s點%s分%s秒", o, str1, str2));
         }
-        if(totalyears==0 || totalmonth==0 || totaldate<=0 ){
+        if(totalyears<=0 ||totalmonth<=0 || totaldate<=0 ){
             tv_movietime.setText("現正熱映中");
 
        /* }else if(totalmonth==0){
             tv_movietime.setText(String.format("剩下%d天",totaldate));
         }else {
-            tv_movietime.setText(String.format("剩下%d年%d月%d日",totalyears,totalmonth,totaldate));
+            tv_movietime.setText(String.format("剩下%年%d月%d日",totalyears,totalmonth,totaldate));
         }*/
+        }
     }
 
 
