@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account"
+    android:gravity="center"
+    android:background="@mipmap/tooopen2"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:src="@mipmap/mcu"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入新帳號(Email)"
+        android:textColorHint="#C0BDBD"
+        android:textColor="#E9DFC522"
+        android:id="@+id/ed_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用戶ID"
+        android:textColorHint="#C0BDBD"
+        android:textColor="#E9DFC522"
+        android:id="@+id/ed_nickname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入新密碼"
+        android:textColorHint="#C0BDBD"
+        android:textColor="#E9DFC522"
+        android:id="@+id/ed_newpassword1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#C0BDBD"
+        android:hint="請再次輸入新密碼"
+        android:textColor="#E9DFC522"
+        android:id="@+id/ed_newpassword2"/>
+
+    <Button
+        android:id="@+id/btn_Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="createNewAccount"
+        android:textColor="#E91010"
+        android:text="註冊新用戶" />
+</LinearLayout>

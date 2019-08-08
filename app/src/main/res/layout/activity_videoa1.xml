@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoa1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="鋼鐵人系列"
+                    android:gravity="center"
+                    android:textSize="30sp"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:visibility="gone"
+                        android:id="@+id/progressbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <WebView
+                        android:id="@+id/web_ironman1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </WebView>
+
+
+                </RelativeLayout>
+
+
+
+
+                <WebView
+                    android:id="@+id/web_ironman2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </WebView>
+                <WebView
+                    android:id="@+id/web_ironman3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </WebView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="美國隊長系列"
+                        android:layout_gravity="center"
+                        android:textSize="30sp"/>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_ca1">
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_ca2">
+
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_ca3">
+                    </WebView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="雷神索爾系列"
+                        android:layout_gravity="center"
+                        android:textSize="30sp"/>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_thor1">
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_thor2">
+
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_thor3">
+                    </WebView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="復仇者聯盟系列"
+                        android:layout_gravity="center"
+                        android:textSize="30sp"/>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_avenger1">
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_avenger2">
+
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_avenger3">
+                    </WebView>
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/web_avenger4">
+                    </WebView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="蟻人系列"
+                            android:layout_gravity="center"
+                            android:textSize="30sp"/>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_ant1">
+                        </WebView>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_ant2">
+                        </WebView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="星際異攻隊系列"
+                            android:layout_gravity="center"
+                            android:textSize="30sp"/>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_gx1">
+                        </WebView>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_gx2">
+                        </WebView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="蜘蛛人系列"
+                            android:layout_gravity="center"
+                            android:textSize="30sp"
+                            />
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_spider">
+                        </WebView>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_spider2">
+                        </WebView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="個人英雄系列"
+                            android:layout_gravity="center"
+                            android:textSize="30sp"/>
+
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_blackp">
+                        </WebView>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_hluk">
+
+                        </WebView>
+
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_dr.s">
+                        </WebView>
+                        <WebView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/web_cm">
+                        </WebView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

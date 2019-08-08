@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/tooopen"
+    android:gravity="center"
+    tools:context=".Login">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/avengerstransparent"/>
+    <EditText
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="請輸入帳號(E-Mail)"
+        android:textColorHint="#ffffff"
+        android:textColor="#07C9FA"
+        android:id="@+id/ed_accont"/>
+    <EditText
+        android:layout_margin="30dp"
+        android:id="@+id/ed_password"
+        android:hint="請輸入密碼"
+        android:textColorHint="#ffffff"
+        android:textColor="#07C9FA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登入"
+            android:id="@+id/btn_login"/>
+        <Button
+            android:text="忘記密碼"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_forgetpw"/>
+        <Button
+            android:text="註冊新帳號"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_newaccount"/>
+
+
+            </LinearLayout>
+
+
+
+</LinearLayout>

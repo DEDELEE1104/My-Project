@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainpage"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    tools:context=".ui.mainpage.MainPageFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:textColor="#FFE809"
+    android:id="@+id/tv_login"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="65dp"
+                android:layout_gravity="left"
+                android:src="@mipmap/imga3" />
+            <Spinner
+                android:id="@+id/sp_muisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="#ffffff">
+
+            </Spinner>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/buttonplay"
+                    android:background="#000000"
+                    android:id="@+id/btn_start"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/buttonstop"
+                    android:background="#000000"
+                    android:id="@+id/btn_stop"/>
+            </LinearLayout>
+        </LinearLayout>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="140dp"
+        android:layout_height="140dp" />
+    <Button
+        android:id="@+id/btn_newmovies"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EED53A"
+        android:textColor="#000000"
+        android:text="點我看最新預告"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蜘蛛人:離家日"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7月3日(三)上映"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/tv_movietime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D60D0D"
+                android:textSize="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:text="目前時間:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_newday"
+            android:textColor="#F1DB0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_newtime"
+            android:textColor="#F1DB0B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           <ImageView
+               android:src="@mipmap/marvelstudiostitle"
+               android:layout_height="100dp"
+               android:layout_width="wrap_content"
+               />
+
+
+
+        <ListView
+            android:id="@+id/newslist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+
+</LinearLayout>
+
+</LinearLayout>

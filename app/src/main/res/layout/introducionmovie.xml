@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="290sp"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/movie_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="電影名稱"
+                    android:textColor="#E90000"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/engtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Englishtitle"
+                    android:textColor="#FFC107"
+                    android:textSize="20dp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="片長:"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/text_length"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1小時5分"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@mipmap/notcollect"
+                android:id="@+id/img_collectmovie"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/imga1" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
